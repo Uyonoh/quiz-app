@@ -1,0 +1,26 @@
+.timer-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.timer-progress {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: conic-gradient(
+    var(--color-primary) 0%,
+    var(--color-primary) 0%,
+    var(--color-bg) 0%,
+    var(--color-bg) 100%
+  );
+  transition: background 0.5s linear;
+}
+
+.timer-progress span {
+  font-size: 0.9rem;
+}
