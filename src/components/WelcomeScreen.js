@@ -1,6 +1,6 @@
 import { useQuiz } from '../context/QuizContext';
 
-export default function WelcomeScreen() {  // Added 'export default'
+export default function WelcomeScreen() {
   const { dispatch } = useQuiz();
   
   const startQuiz = () => {
